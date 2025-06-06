@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const HeroSection = () => {
@@ -7,7 +6,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url('https://images.unsplash.com/photo-1496024840928-4c417adf211d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+          backgroundImage: `linear-gradient(rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url('/images/header_img.jpg')`
         }}
       />
       <div className="relative z-10 text-center text-white px-4 animate-fade-in">
