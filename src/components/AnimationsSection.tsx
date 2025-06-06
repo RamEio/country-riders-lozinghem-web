@@ -47,8 +47,7 @@ const AnimationsSection = () => {
               Bals Country
             </h3>
             <p className="text-white/90">
-              Soirées dansantes dans une ambiance authentique avec orchestre live 
-              et DJ spécialisé musique country.
+              Soirées dansantes dans une ambiance authentique et DJ spécialisé musique country.
             </p>
           </div>
           

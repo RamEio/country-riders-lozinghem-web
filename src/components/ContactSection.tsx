@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone, MapPin } from 'lucide-react';
 
@@ -28,6 +27,7 @@ const ContactSection = () => {
                     <h4 className="font-semibold text-country-cream mb-2">Adresse</h4>
                     <p className="text-country-tan">
                       Salle des Fêtes<br />
+                      15 r Joseph Carlier<br/>
                       62540 Lozinghem<br />
                       Pas-de-Calais
                     </p>
@@ -53,27 +53,15 @@ const ContactSection = () => {
               <h3 className="text-2xl font-semibold text-country-cream mb-4">
                 Tarifs
               </h3>
-              <div className="bg-country-tan/20 p-6 rounded-lg">
-                <div className="space-y-3">
-                  <div className="flex justify-between">
-                    <span>Adhésion annuelle :</span>
-                    <span className="font-semibold">25€</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Cours mensuel :</span>
-                    <span className="font-semibold">15€</span>
-                  </div>
-                  <div className="border-t border-country-tan/30 pt-2 mt-3">
-                    <div className="flex justify-between font-semibold">
-                      <span>Total annuel :</span>
-                      <span>205€</span>
-                    </div>
-                  </div>
+              <div className="border-t border-country-tan/30 pt-2 mt-3">
+                <div className="flex justify-between font-semibold">
+                  <span>Total annuel (de septembre à juin):</span>
+                  <span>35€</span>
                 </div>
-                <p className="text-sm text-country-tan/80 mt-4">
-                  Prix volontairement bas pour rester accessible à tous
-                </p>
               </div>
+              <p className="text-sm text-country-tan/80 mt-4">
+                Prix volontairement bas pour rester accessible à tous
+              </p>
             </div>
           </div>
           

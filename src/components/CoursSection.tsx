@@ -65,10 +65,10 @@ const CoursSection = () => {
               </div>
               <div className="flex justify-between items-center">
                 <span className="font-medium text-gray-700">Niveau :</span>
-                <span className="text-country-brown font-semibold">Avancé</span>
+                <span className="text-country-brown font-semibold">Tous niveaux</span>
               </div>
               <p className="text-gray-600 mt-4">
-                Apprentissage de chorégraphies plus complexes et techniques avancées.
+                Révision des chorégraphies apprises la veille.
               </p>
             </div>
           </div>
