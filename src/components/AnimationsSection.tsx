@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Calendar, Users, Music } from 'lucide-react';
 
@@ -8,7 +7,7 @@ const AnimationsSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(139, 69, 19, 0.8), rgba(139, 69, 19, 0.8)), url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+          backgroundImage: `linear-gradient(rgba(139, 69, 19, 0.8), rgba(139, 69, 19, 0.8)), url('/images/animation_picture.jpg')`
         }}
       />
       <div className="container mx-auto px-4 relative z-10">
@@ -23,7 +22,7 @@ const AnimationsSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           <div className="animate-fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="/images/animation_picture.jpg" 
               alt="Bal de danse country" 
               className="rounded-lg shadow-lg w-full h-64 object-cover border-4 border-white/20"
             />
