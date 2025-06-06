@@ -85,13 +85,26 @@
 }
 
 .wood-texture {
-  background-image: 
+  background: 
+    linear-gradient(90deg, 
+      rgba(139, 69, 19, 0.9) 0%,
+      rgba(160, 82, 45, 0.9) 10%,
+      rgba(139, 69, 19, 0.9) 20%,
+      rgba(120, 69, 19, 0.9) 30%,
+      rgba(139, 69, 19, 0.9) 40%,
+      rgba(160, 82, 45, 0.9) 50%,
+      rgba(139, 69, 19, 0.9) 60%,
+      rgba(120, 69, 19, 0.9) 70%,
+      rgba(139, 69, 19, 0.9) 80%,
+      rgba(160, 82, 45, 0.9) 90%,
+      rgba(139, 69, 19, 0.9) 100%
+    ),
     repeating-linear-gradient(
-      90deg,
-      rgba(139, 69, 19, 0.1) 0px,
-      rgba(139, 69, 19, 0.1) 2px,
+      0deg,
+      transparent 0px,
+      rgba(0, 0, 0, 0.1) 1px,
       transparent 2px,
-      transparent 8px
+      transparent 4px
     );
 }
 

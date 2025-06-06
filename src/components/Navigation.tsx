@@ -10,12 +10,12 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-country-brown/95 backdrop-blur-sm shadow-lg">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-country-brown/95 backdrop-blur-sm shadow-lg wood-texture">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img 
-              src="/lovable-uploads/5d41639c-a372-4f3e-93e4-6ea32862ba6b.png" 
+              src="/lovable-uploads/ba413afd-e619-4d7f-991a-e6d501ad210a.png" 
               alt="Country Riders Logo" 
               className="h-12 w-auto"
             />

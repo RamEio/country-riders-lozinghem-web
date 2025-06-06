@@ -7,13 +7,13 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url('https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+          backgroundImage: `linear-gradient(rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url('https://images.unsplash.com/photo-1496024840928-4c417adf211d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
         }}
       />
       <div className="relative z-10 text-center text-white px-4 animate-fade-in">
         <div className="mb-8">
           <img 
-            src="/lovable-uploads/5d41639c-a372-4f3e-93e4-6ea32862ba6b.png" 
+            src="/lovable-uploads/ba413afd-e619-4d7f-991a-e6d501ad210a.png" 
             alt="Country Riders Logo" 
             className="mx-auto h-32 w-auto mb-6 drop-shadow-2xl"
           />
