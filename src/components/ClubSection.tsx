@@ -4,8 +4,14 @@ import { Users } from 'lucide-react';
 
 const ClubSection = () => {
   return (
-    <section id="club" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section id="club" className="py-20 bg-white relative">
+      <div 
+        className="absolute inset-0 opacity-5"
+        style={{
+          backgroundImage: `url('https://images.unsplash.com/photo-1469041797191-50ace28483c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+        }}
+      />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <Users className="mx-auto mb-6 text-country-brown" size={48} />
           <h2 className="text-4xl font-bold text-country-brown mb-6 font-western">
@@ -15,8 +21,8 @@ const ClubSection = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="text-center p-6 bg-country-cream rounded-lg shadow-md animate-fade-in">
-            <h3 className="text-xl font-semibold text-country-brown mb-4">
+          <div className="text-center p-6 bg-country-cream/80 backdrop-blur-sm rounded-lg shadow-md animate-fade-in border-2 border-country-tan">
+            <h3 className="text-xl font-semibold text-country-brown mb-4 font-western-alt">
               Ouvert à Tous
             </h3>
             <p className="text-gray-700">
@@ -25,8 +31,8 @@ const ClubSection = () => {
             </p>
           </div>
           
-          <div className="text-center p-6 bg-country-cream rounded-lg shadow-md animate-fade-in">
-            <h3 className="text-xl font-semibold text-country-brown mb-4">
+          <div className="text-center p-6 bg-country-cream/80 backdrop-blur-sm rounded-lg shadow-md animate-fade-in border-2 border-country-tan">
+            <h3 className="text-xl font-semibold text-country-brown mb-4 font-western-alt">
               Prix Accessible
             </h3>
             <p className="text-gray-700">
@@ -35,8 +41,8 @@ const ClubSection = () => {
             </p>
           </div>
           
-          <div className="text-center p-6 bg-country-cream rounded-lg shadow-md animate-fade-in">
-            <h3 className="text-xl font-semibold text-country-brown mb-4">
+          <div className="text-center p-6 bg-country-cream/80 backdrop-blur-sm rounded-lg shadow-md animate-fade-in border-2 border-country-tan">
+            <h3 className="text-xl font-semibold text-country-brown mb-4 font-western-alt">
               Unis par la Musique
             </h3>
             <p className="text-gray-700">
@@ -47,7 +53,7 @@ const ClubSection = () => {
         </div>
         
         <div className="text-center max-w-4xl mx-auto animate-fade-in">
-          <h3 className="text-2xl font-semibold text-country-brown mb-6">
+          <h3 className="text-2xl font-semibold text-country-brown mb-6 font-western-alt">
             L'Esprit Country Riders
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">

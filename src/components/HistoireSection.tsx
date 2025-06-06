@@ -4,8 +4,14 @@ import { Music } from 'lucide-react';
 
 const HistoireSection = () => {
   return (
-    <section id="histoire" className="py-20 bg-country-cream">
-      <div className="container mx-auto px-4">
+    <section id="histoire" className="py-20 bg-country-cream relative">
+      <div 
+        className="absolute inset-0 opacity-10"
+        style={{
+          backgroundImage: `url('https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+        }}
+      />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <Music className="mx-auto mb-6 text-country-brown" size={48} />
           <h2 className="text-4xl font-bold text-country-brown mb-6 font-western">
@@ -16,7 +22,7 @@ const HistoireSection = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <h3 className="text-2xl font-semibold text-country-brown mb-4">
+            <h3 className="text-2xl font-semibold text-country-brown mb-4 font-western-alt">
               Des Origines Authentiques
             </h3>
             <p className="text-gray-700 leading-relaxed">
@@ -32,7 +38,7 @@ const HistoireSection = () => {
           </div>
           
           <div className="space-y-6 animate-fade-in">
-            <h3 className="text-2xl font-semibold text-country-brown mb-4">
+            <h3 className="text-2xl font-semibold text-country-brown mb-4 font-western-alt">
               La Musique Country
             </h3>
             <p className="text-gray-700 leading-relaxed">

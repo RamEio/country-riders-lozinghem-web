@@ -112,7 +112,9 @@ export default {
 				'fade-in': 'fade-in 0.6s ease-out'
 			},
 			fontFamily: {
-				'western': ['Georgia', 'serif'],
+				'western': ['Rye', 'serif'],
+				'western-alt': ['Fredericka the Great', 'cursive'],
+				'western-bold': ['New Rocker', 'cursive'],
 			}
 		}
 	},

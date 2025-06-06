@@ -13,9 +13,16 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-country-brown/95 backdrop-blur-sm shadow-lg">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-country-cream font-western">
-            Country Riders
-          </h1>
+          <div className="flex items-center space-x-4">
+            <img 
+              src="/lovable-uploads/5d41639c-a372-4f3e-93e4-6ea32862ba6b.png" 
+              alt="Country Riders Logo" 
+              className="h-12 w-auto"
+            />
+            <h1 className="text-2xl font-bold text-country-cream font-western">
+              Country Riders
+            </h1>
+          </div>
           <ul className="hidden md:flex space-x-6">
             {[
               { id: 'histoire', label: 'Histoire' },
@@ -27,7 +34,7 @@ const Navigation = () => {
               <li key={item.id}>
                 <button
                   onClick={() => scrollToSection(item.id)}
-                  className="text-country-cream hover:text-country-tan transition-colors duration-300 font-medium"
+                  className="text-country-cream hover:text-country-tan transition-colors duration-300 font-medium font-western-alt"
                 >
                   {item.label}
                 </button>

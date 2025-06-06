@@ -4,8 +4,14 @@ import { Calendar } from 'lucide-react';
 
 const CoursSection = () => {
   return (
-    <section id="cours" className="py-20 bg-country-cream">
-      <div className="container mx-auto px-4">
+    <section id="cours" className="py-20 bg-country-cream relative">
+      <div 
+        className="absolute inset-0 opacity-10"
+        style={{
+          backgroundImage: `url('https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+        }}
+      />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <Calendar className="mx-auto mb-6 text-country-brown" size={48} />
           <h2 className="text-4xl font-bold text-country-brown mb-6 font-western">
@@ -15,9 +21,9 @@ const CoursSection = () => {
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <div className="bg-white p-8 rounded-lg shadow-lg animate-fade-in">
+          <div className="bg-white/90 backdrop-blur-sm p-8 rounded-lg shadow-lg animate-fade-in border-2 border-country-tan">
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-semibold text-country-brown mb-2">
+              <h3 className="text-2xl font-semibold text-country-brown mb-2 font-western-alt">
                 Mercredi Soir
               </h3>
               <div className="w-16 h-1 bg-country-rust mx-auto mb-4"></div>
@@ -41,9 +47,9 @@ const CoursSection = () => {
             </div>
           </div>
           
-          <div className="bg-white p-8 rounded-lg shadow-lg animate-fade-in">
+          <div className="bg-white/90 backdrop-blur-sm p-8 rounded-lg shadow-lg animate-fade-in border-2 border-country-tan">
             <div className="text-center mb-6">
-              <h3 className="text-2xl font-semibold text-country-brown mb-2">
+              <h3 className="text-2xl font-semibold text-country-brown mb-2 font-western-alt">
                 Jeudi Soir
               </h3>
               <div className="w-16 h-1 bg-country-rust mx-auto mb-4"></div>
@@ -69,7 +75,7 @@ const CoursSection = () => {
         </div>
         
         <div className="text-center mt-12 max-w-3xl mx-auto animate-fade-in">
-          <h3 className="text-2xl font-semibold text-country-brown mb-6">
+          <h3 className="text-2xl font-semibold text-country-brown mb-6 font-western-alt">
             Déroulement des Cours
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">

@@ -94,3 +94,20 @@
       transparent 8px
     );
 }
+
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Style western pour les polices */
+.font-western {
+  letter-spacing: 0.05em;
+}
+
+.font-western-alt {
+  letter-spacing: 0.02em;
+}
+
+.font-western-bold {
+  letter-spacing: 0.1em;
+}
